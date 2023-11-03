@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+}
+.container{
+    margin: auto;
+    width: 500px;
+    max-width: 90%;
+}
+.image{
+    text-align: center;
+}
+.image img{
+    width: 5vw;
+}
+.container form{
+    width: 91%;
+    height: 34vw;
+    padding: 50px;
+    border: 0.25px solid #d5d5d5;
+    border-radius: 10px;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+}
+.container form h1{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 300;
+    margin-bottom: 18px;
+}
+.container form p{
+    text-align: center;
+    color: #202124;
+    font-size: 14px;
+    font-weight: 400;
+}
+.email{
+    padding: 2vw;
+}
+.email span{
+    position: relative;
+    bottom: 35px;
+    right: 19px;
+    color: gray;
+}
+.email .emailSec{
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;;
+    padding: 18px;
+    width: 24vw;
+    position: relative;
+    right: 36px;
+    border: 1px solid #d5d5d5;
+}
+.emailSecs::placeholder{
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-weight: bold;
+}
+.p a{
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    
+    position: relative;
+    bottom: 39px;
+    right: 4px;
+}
+.matter{
+    color: gray;
+    font-size: 14px;
+}
+.p1 a{
+    color: #1a73e8;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.createacc .btn{
+    position: relative;
+    top: 50px;
+    background: none;
+    border: 0px solid;
+    color: #1a73e8;
+    font-weight: bold;
+    letter-spacing: .0107142857em;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    padding: 2px;
+    border-radius: 3px;
+}
+.btn:hover{
+    color:#1a73e8;
+    background: azure;
+    
+}
+.createacc .next{
+    background-color: #1a73e8;
+    position: relative;
+    top: 51px;
+    left: 188px;
+    border: 1px solid;
+    color: white;
+    width: 5vw;
+    padding: 10px;
+    border-radius: 5px;
+}
+.extra{
+    display: inline-block;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    color: #202124;
+}
+.extra1{
+    display: inline-block;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    color: #757575;
+    display: flex;
+    justify-content: space-between;
+    width: 34%;
+    position: relative;
+    left: 38vh;
+    top: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.extra{
+    position: relative;
+    top: 20px;
+    /* left: 25px; */
+    color: #757575;
+    font-size: 12px;
+    font-weight: bold;
+    
+ 
+}
+.scroll{
+    color: inherit;
+    overflow: visible;
+    right: 8px;
+    top: 16px;
+    width: auto;
+}
+
+.extra1 p{
+    display: inline-block;
+    
+}
